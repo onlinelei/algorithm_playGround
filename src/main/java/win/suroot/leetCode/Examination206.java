@@ -4,7 +4,7 @@ package win.suroot.leetCode;
 /**
  * @author qianlei
  * @create 2019-11-09 23:00
- * @desc
+ * @desc 翻转连表
  */
 public class Examination206 {
 
@@ -27,15 +27,15 @@ public class Examination206 {
     }
 
     private static ListNode each(ListNode current, ListNode preview) {
+        if (current == null) {
+            return preview;
+        }
         ListNode temp = current.next;
         current.next = preview;
         preview = current;
         current = temp;
 
-        if (current != null) {
-            return each(current, preview);
-        }
-        return null;
+        return each(current, preview);
     }
 
     /**

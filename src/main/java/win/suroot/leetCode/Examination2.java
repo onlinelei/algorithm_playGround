@@ -3,7 +3,7 @@ package win.suroot.leetCode;
 /**
  * @author qianlei
  * @create 2019-11-12 11:06
- * @desc
+ * @desc 两数相加
  */
 public class Examination2 {
 
