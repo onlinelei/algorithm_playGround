@@ -61,7 +61,7 @@ public class Examination206 {
     }
 
 
-    public class ListNode {
+    private class ListNode {
         int val;
         ListNode next;
 
