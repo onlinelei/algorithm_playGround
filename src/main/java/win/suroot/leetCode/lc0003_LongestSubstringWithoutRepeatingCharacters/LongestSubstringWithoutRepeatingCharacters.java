@@ -1,4 +1,4 @@
-package win.suroot.leetCode;
+package win.suroot.leetCode.lc0003_LongestSubstringWithoutRepeatingCharacters;
 
 import java.util.ArrayList;
 
@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * @create 2019-11-12 17:05
  * @desc
  */
-public class Examination3 {
+public class LongestSubstringWithoutRepeatingCharacters {
 
     /**
      * 给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。

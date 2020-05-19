@@ -1,4 +1,4 @@
-package win.suroot.leetCode;
+package win.suroot.leetCode.lc0206_ReverseLinkedList;
 
 
 /**
@@ -6,7 +6,7 @@ package win.suroot.leetCode;
  * @create 2019-11-09 23:00
  * @desc 翻转连表
  */
-public class Examination206 {
+public class ReverseLinkedList {
 
     /**
      * 反转一个单链表。
