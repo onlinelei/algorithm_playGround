@@ -72,4 +72,27 @@ public class AddTwoNumber {
         return dummyHead.next;
     }
 
+    public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
+        ListNode result = new ListNode(0);
+        ListNode p = l1, q = l2, current = result;
+        int carry = 0;
+        while (p != null || q != null || carry != 0) {
+            int x = p == null ? 0 : p.val;
+            int y = q == null ? 0 : q.val;
+            int sum = x + y + carry;
+            carry = sum / 10;
+            current.next = new ListNode(sum % 10);
+            current = current.next;
+
+            if (p != null){
+                p = p.next;
+            }
+            if (q != null){
+                q = q.next;
+            }
+
+        }
+        return result.next;
+    }
+
 }
